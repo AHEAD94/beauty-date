@@ -1,0 +1,43 @@
+# Build directories (generated build files)
+build/
+.gradle/
+*/build/
+*/.gradle/
+
+# Gradle wrapper files
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Local environment settings file
+local.properties
+
+# Android Studio project files
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Platform-specific files
+.DS_Store   # macOS
+Thumbs.db   # Windows
+*.swp       # Linux
+
+# External native build files
+/.externalNativeBuild/
+
+# CMake, ndk-build configuration files
+/cxx/
+
+# Java Eclipse project files (optional)
+.classpath
+.project
+
+# Firebase configuration file for Android Studio
+google-services.json
+
+# Personal temporary files (optional)
+.idea/
+
+# Cache files used by Android
+*.log
+*.keystore
